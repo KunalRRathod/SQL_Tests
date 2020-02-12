@@ -6,7 +6,7 @@ CREATE TABLE Student(
    AGE  INT              NOT NULL,
    ADDRESS  CHAR (25) ,
           
-   PRIMARY KEY (ID),
+   PRIMARY KEY (ID)
 );
 insert into student values ("9","Bucky", "1", "Vienna"); 
 select * from Student;
